@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="basePreferenceScreen" xmlns:android="http://schemas.android.com/apk/res/android">
+		<PreferenceCategory android:title="Accounts" android:key="@string/accounts_category_key">
+
+		</PreferenceCategory>
+		<PreferenceCategory android:title="Other Settings">
+			<CheckBoxPreference android:title="Use Default Notifications" android:summary="Notify on all emails" android:key="defaultNotification" android:defaultValue="true"/>
+			<ListPreference android:dialogTitle="Choose a Color" android:entries="@array/colors" android:entryValues="@array/colors" android:title="Default LED Color" android:key="defaultLEDColor" android:defaultValue="Green"></ListPreference>
+			<ListPreference android:dialogTitle="Choose Vibration Style" android:entries="@array/vibrationSettings" android:entryValues="@array/vibrationSettings" android:title="Default Vibration" android:key="defaultVibration" android:defaultValue="Default"></ListPreference>
+			<RingtonePreference android:dialogTitle="Choose Ringtone" android:title="Default Ringtone" android:showDefault="true" android:showSilent="true" android:ringtoneType="all" android:key="defaultRingtone" android:defaultValue="Default"/>
+			<ListPreference android:dialogTitle="Choose LED Duration" android:entries="@array/ledDuration" android:entryValues="@array/ledDuration" android:title="Default LED Duration" android:key="defaultLEDDuration" android:defaultValue="Flash"></ListPreference>
+			<CheckBoxPreference android:defaultValue="true" android:title="Autostart Labelert" android:key="autostartService"></CheckBoxPreference>
+		</PreferenceCategory>
+</PreferenceScreen>

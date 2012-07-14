@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string-array name="ledDuration">
+	<item>Stay On</item>
+	<item>Flash</item>
+</string-array>
+
+<string-array name="colors">
+	<item>Red</item>
+	<item>Green</item>
+	<item>Blue</item>
+	<item>Yellow</item>
+	<item>Magenta</item>
+</string-array>
+
+<string-array name="vibrationSettings">
+	<item>Long</item>
+	<item>Short</item>
+	<item>Default</item>
+	<item>None</item>
+</string-array>
+
+<string-array name="Repeat">
+	<item>Never</item>
+	<item>1 Minute</item>
+	<item>2 Minutes</item>
+	<item>5 Minutes</item>
+	<item>10 Minutes</item>
+	<item>15 Minutes</item>
+	<item>30 Minutes</item>
+</string-array>
+
+
+<string-array name="RepeatValues">
+	<item>-1</item>
+	<item>60000</item>
+	<item>120000</item>
+	<item>300000</item>
+	<item>600000</item>
+	<item>900000</item>
+	<item>1800000</item>
+</string-array>
+
+</resources>

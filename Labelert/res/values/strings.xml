@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Labelert</string>
+    <string name="title_activity_main">Labelert</string>
+    <string name="accounts_category_key">accountsCategory</string>
+    <string name="donate">Welcome to Labelert. Labelert has been free since its new beginnings. I have put a lot of time and work into the application and I am 
+    loving how it has grown. Please donate and support Labelert if it has helped you. I will always keep Labelert free and without advertisements. Thanks for the support!</string>
+</resources>
