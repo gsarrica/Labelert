@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Labelert</string>
     <string name="title_activity_main">Labelert</string>
     <string name="accounts_category_key">accountsCategory</string>
     <string name="donate">Welcome to Labelert. Labelert has been free since its new beginnings. I have put a lot of time and work into the application and I am 
     loving how it has grown. Please donate and support Labelert if it has helped you. I will always keep Labelert free and without advertisements. Thanks for the support!</string>
+    <string name="nodata">No Data</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+
 </resources>

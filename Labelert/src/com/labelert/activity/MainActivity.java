@@ -1,14 +1,13 @@
 package com.labelert.activity;
 
-
 import com.labelert.fragment.LabelertPreferenceFragment;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 
 public class MainActivity extends Activity {
-
-    @Override
+    
+	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -16,6 +15,4 @@ public class MainActivity extends Activity {
         getFragmentManager().beginTransaction().replace(android.R.id.content,
                 new LabelertPreferenceFragment()).commit();
     }
-
-    
 }
